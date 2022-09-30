@@ -1,0 +1,51 @@
+.brand{
+ display: inline-flex;
+}
+.icon-bg{
+ position: relative;
+ width: 70px;
+ height: 70px;
+ border-radius: 17px;
+ margin-right: 30px;
+}
+#design .icon-bg{
+ background-color: #F0BB1F;
+}
+#design .icon-bg svg{
+ margin:16px;
+}
+#development .icon-bg {
+background-color: #F15A2B;
+}
+#development .icon-bg svg{
+ margin:21px;
+}
+#testing .icon-bg{
+ background-color: #006380;
+}
+#footer #contactIcons svg{
+ margin-right: 20px;
+}
+#blog img{
+ width: 361px;
+ height: 241px;
+}
+#testimony svg{
+ margin-top: 50px;
+}
+#input__svg{
+ position: absolute;
+ width: 17px;
+ height: 17px;
+ right: 10px;
+ top: 12px;
+ fill: #808080;
+ transition: fill .1s linear;
+}
+#input__wrapper{
+ position: relative;
+
+}
+
+
+

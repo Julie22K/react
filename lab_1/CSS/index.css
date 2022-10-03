@@ -42,23 +42,29 @@ margin-bottom: 149px}
     background: linear-gradient(49.08deg, rgba(65, 88, 208, 0.5) 3.31%, rgba(200, 80, 192, 0.5) 57.52%, rgba(255, 204, 112, 0.5) 91.12%);
     filter: blur(75px);
 }
-#ellipse1st{
+#ellipse__1{
     width: 718px;
     height: 718px;
     left: -293px;
     top: -267px;
 }
-#ellipse2nd{
+#ellipse__2{
     width: 496px;
     height: 496px;
     right: -293px;
     top: 1464px;
 }
-#ellipse3th{
+#ellipse__3{
     width: 496px;
     height: 496px;
     left: -295px;
     top: 4868px;
+}
+#ellipse__4{
+    width: 496px;
+    height: 496px;
+    right: -233px;
+    top: -367px;
 }
 
 .row{
@@ -112,4 +118,4 @@ border:none;
 
 
 /*portfolio.html*/
-#protfolio_galery{margin-top: 107px;}
+#portfolio_gallery{margin-top: 110px;}

@@ -8,19 +8,19 @@
  border-radius: 17px;
  margin-right: 30px;
 }
-#design .icon-bg{
+.icon-bg.icon-bg-yellow{
  background-color: #F0BB1F;
 }
 #design .icon-bg svg{
  margin:16px;
 }
-#development .icon-bg {
-background-color: #F15A2B;
+.icon-bg.icon-bg-red{
+ background-color: #F15A2B;
 }
 #development .icon-bg svg{
  margin:21px;
 }
-#testing .icon-bg{
+.icon-bg.icon-bg-blue{
  background-color: #006380;
 }
 #footer #contactIcons svg{
@@ -47,7 +47,7 @@ background-color: #F15A2B;
 
 }
 #input__wrapper input{
-margin-left: 20px;
+ margin-left: 20px;
 }
 
 

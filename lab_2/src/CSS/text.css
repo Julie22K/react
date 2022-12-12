@@ -1,0 +1,195 @@
+
+*{
+    font-style: normal;
+}
+/*font-weight*/
+.tx-w-400{
+    font-weight: 400;
+}
+.tx-w-500{
+    font-weight: 500;
+}
+.tx-w-600{
+    font-weight: 600;
+}
+/*font-size(smaller,small,medium,large,larger,xlarger)*/
+.tx-s-sr{
+    font-size: 12px;
+}
+.tx-s-s{
+    font-size: 14px;
+}
+.tx-s-m{
+    font-size: 18px;
+}
+.tx-s-l{
+    font-size: 40px;
+}
+.tx-s-lr{
+    font-size: 48px;
+}
+.tx-s-xlr{
+    font-size: 60px;
+}
+
+#content h5{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+#content h1{
+    font-size: 60px;
+    line-height: 76px;
+}
+#content p{
+    font-size: 18px;
+    line-height: 29px;
+    color: #1E1C3199;
+    margin:63px 0 75px 0;
+}
+#content h1,#content h5{
+    color: var(--black-l);
+    margin:0;
+}
+
+#shortInfo h6{
+    align-items: center;
+    color: var(--black-l);
+    margin-bottom:14px;
+}
+#shortInfo p{
+    font-style: normal;
+    align-items: center;
+    color: rgba(30, 28, 49, 0.5);
+
+}
+
+#footer h3{
+    font-style: normal;
+    line-height: 28px;
+    color: #222136;
+}
+#footer ul{
+     padding-inline-start: 0;
+ }
+#footer p,
+#footer ul li{
+    line-height: 28px;
+    color: rgba(34, 33, 54, 0.7);
+}
+#footer ul li{
+    list-style: none;
+    margin-left:0;
+}
+
+#getItTouch h1{
+    margin:100px 9px 86px 217px;
+    width: 537px;
+    line-height: 51px;
+    color: var(--white);
+}
+
+#blog h6{
+    width: 60px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--black-l);
+}
+#blog h2{
+    width: 393px;
+    line-height: 61px;
+    letter-spacing: 0.03em;
+    color: var(--black-l);
+}
+#blog .card .data,
+#blog .card .author{
+    line-height: 19px;
+    margin-right: 9px;
+    color: #1E1C3199;
+}
+#blog .card p{
+    line-height: 22px;
+    color: var(--black-l);
+}
+#blog .card a{
+    line-height: 22px;
+    text-decoration: none;
+    color: var(--blue);
+}
+
+#about h3 {
+    margin-top:30px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--black-l);
+
+}
+#about h2 {
+    width: 452px;
+    line-height: 61px;
+    color: var(--black-l);
+    margin-top:25px;
+}
+#about p {
+    width: 498px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #1E1C3199;
+    margin-top:25px;
+    margin-bottom:42px;
+
+}
+
+#portfolio h3{
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--black-l);
+    margin-bottom: 15px;
+}
+#portfolio h2{
+    line-height: 61px;
+    color: var(--black-l);
+}
+#portfolio p{
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 17px;
+    margin-top: 13px;
+}
+
+
+#testimony h3{
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--black-l);
+}
+#testimony h2{
+    margin-top:15px ;
+    margin-bottom: 283px;
+    width: 625px;
+    line-height: 61px;
+    color: var(--black-l);
+}
+#testimony p{
+    width: 499px;
+    line-height: 22px;
+    color: #000000;
+}
+#testimony h4{
+    margin-top: 26px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: var(--black-l);
+}
+#testimony h5{
+    line-height: 19px;
+    text-transform: uppercase;
+    color: var(--black-l);
+}
+

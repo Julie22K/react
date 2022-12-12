@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+html {
+    scroll-behavior:smooth;
+}
+:root{
+    --blue:#4270EC;
+    --black-l:#1E1C31;
+    --white:#FFFFFF;
+}
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+}
+#container{
+  padding:0 100px 0 100px;
+    overflow: hidden;
+    position: relative;
+ }
+#content .col{
+    padding:64px 64px 64px 20px;
+}
+#container .container-part{
+
+    width: 1200px;
+}
+#header{
+    margin-top: 49px;
+}
+#shortInfo{margin-top: 110px;}
+#content{margin-top: 107px;}
+#about{margin-top: 110px;}
+#portfolio{margin-top: 241px;}
+#testimony{margin-top: 219px;}
+#blog{margin-top: 198px;}
+#getItTouch{margin-top: 166px;}
+#footer{margin-top: 160px;
+margin-bottom: 149px}
+.ellipse{
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(49.08deg, rgba(65, 88, 208, 0.5) 3.31%, rgba(200, 80, 192, 0.5) 57.52%, rgba(255, 204, 112, 0.5) 91.12%);
+    filter: blur(75px);
+}
+#ellipse__1{
+    width: 718px;
+    height: 718px;
+    left: -293px;
+    top: -267px;
+}
+#ellipse__2{
+    width: 496px;
+    height: 496px;
+    right: -293px;
+    top: 1464px;
+}
+#ellipse__3{
+    width: 496px;
+    height: 496px;
+    left: -295px;
+    top: 4868px;
+}
+#ellipse__4{
+    width: 496px;
+    height: 496px;
+    right: -233px;
+    top: -367px;
+}
+
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#shortInfo>div{
+    width: 33%;
+}
+#footer>.row>div{
+    width: 25%;
+    margin-right: 39px;
+}
+#footer input{
+    line-height: 28px;
+    align-items: center;
+    color: rgba(34, 33, 54, 0.8);
+    width: 280px;
+    height: 10px;
+    border: none;
+    background: #ECF0FC;
+    border-radius: 9px;
+    padding: 16px 5px 12px 0 ;
+}
+#footer input:hover{
+border:none;
+}
+#getItTouch{
+    width: 1160px;
+    height: 300px;
+    background: linear-gradient(79.42deg, #527FF6 15.73%, #E16DD9 79.76%, #FFCC70 112.35%);
+    border-radius: 30px;
+}
+#blog .card{
+    margin: 19px;
+}
+.card-2>div{
+    width: 50%;
+}
+#portfolio .card-2
+{margin-bottom:100px;}
+#testimony{
+    position: relative;
+}
+
+
+/*portfolio.html*/
+#portfolio_gallery{margin-top: 110px;}

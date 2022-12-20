@@ -1,0 +1,21 @@
+#app-footer{
+    height:fit-content;
+    background-color: rgba(30, 41, 98, 0.88);
+
+    bottom: 0;
+    width:95%;
+    padding: 2.5%;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(49,49,153,0.61);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(49,49,153,0.61);
+    box-shadow: 0px 0px 16px 0px rgba(49,49,153,0.61);
+}
+#app-footer h6{
+    color:white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#app-footer li{
+    color:white;
+    list-style: none;
+    line-height: 30px;
+}

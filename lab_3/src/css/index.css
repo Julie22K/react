@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+@import url(https://fonts.googleapis.com/css?family=Barlow:600,700);
+*{
+    font-family: sans-serif,'Barlow';
+    padding: 0;
+    margin:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+
+}

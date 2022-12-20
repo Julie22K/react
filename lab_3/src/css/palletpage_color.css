@@ -1,0 +1,58 @@
+.palette-page-color{
+    position: relative;
+}
+.palette-page-color:hover{
+    cursor:pointer;
+}
+
+.palette-page-color div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+.palette-page-color .back{
+    z-index: 3;
+}
+.palette-page-color .back h6{
+    color: #FFFFFF51;
+    font-size:medium;
+    position: absolute;
+    margin: 10px;
+    bottom: 0;
+    right:0;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 800px) {
+    .palette-page-color .back h6{
+        display: none;
+    }
+}
+
+
+.palette-page-color .copy{
+    visibility: hidden;
+    z-index: 4;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.palette-page-color:hover .copy{
+    visibility: visible;
+    opacity: 1;
+}
+.palette-page-color .copy h4{
+    position: absolute;
+    top:35%;
+    left:30%;
+    width: 40%;
+
+    padding:3px;
+    color:white;
+    border:2px solid #FFFFFF51;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+
+}
+

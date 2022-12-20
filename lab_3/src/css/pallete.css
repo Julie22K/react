@@ -1,0 +1,42 @@
+.pallete-card{
+    display: block;
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    padding-top: 9px;
+    margin: 20px;
+    transition: all .2s;
+}
+.pallete-card:hover{cursor: pointer}
+.pallete-table{
+    height: calc(100% - 40px);
+    width: 100%;
+    display: grid;
+    gap: 0;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.pallete-card-fotter{
+    justify-content: space-between;
+}
+.pallete-card-name{
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    width: 100%;
+    text-align: left;
+    text-indent: 2px;
+    letter-spacing: .55px;
+}
+.pallete-card-emoji{
+    float: right;
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 20px;
+}
